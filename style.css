@@ -1,0 +1,123 @@
+body {
+    background: aliceblue;
+    width: 100%;
+   margin : 0px;
+}
+ .header {
+     background:black ;
+     color: white;
+     width: 100%;
+     height: 50px;
+ }
+ .header ul {
+     list-style-type: none;
+     padding: 0px;
+     margin: 0px;
+ }
+ .header ul li {
+     display: inline;
+     
+ }
+ .header ul li a {
+     color: white;
+     line-height: 50px;
+     padding: 10px;
+ }
+ .navbar {
+     width: 100%;
+     background: white;
+    
+ }
+ .navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    line-height: 3;
+ }
+ .navbar ul li{
+    display: inline;
+    cursor: pointer;
+ }
+
+ .navbar ul li:hover{
+     background: dodgerblue;
+ }
+
+ .navbar ul li:hover a {
+     color: white;
+     font-weight: bold;
+ }
+
+ *, ::after, ::before {
+     box-sizing: unset;
+ }
+
+ .navbar ul li a{
+     color: black;
+     line-height:40px;
+   text-align: center;
+ }
+
+ .pro.section h2 {
+     color: black;
+     text-align: center;
+    
+
+ }
+
+ .navbar ul li{
+     text-align: center;
+ }
+ .single {
+   
+    padding: 3%;
+    background: white;
+     margin-top: 0px ;
+     border-radius: 8px;
+     height: auto;
+ }
+ .single img {
+     width: 100%;
+     height:300px ;
+ }
+
+ .navbar {
+     padding:0%;
+ }
+ .textc{
+     text-align: center;
+ }
+ .single button {
+   
+    color: white;
+    background: black;
+ }
+ .footer {
+     text-align: center;
+     padding:10px 40px 10px 40px;
+     line-height: 4;
+ }
+ .signup {
+     background: white;
+     width: 300px;
+     margin: auto;
+     border: 1px solid  black;
+     padding: 50px 10px;
+ }
+ .P-Label {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: black;
+    color: white;
+    padding: 2%;
+    text-transform:Capitalize ;
+    margin-top:3%;
+ }
+
+ .P-Label>*{
+    text-transform:Capitalize ;
+    font-size: 18px;
+    margin-top: 5%;
+ }
+
+
+
